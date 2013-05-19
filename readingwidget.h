@@ -19,7 +19,11 @@ private:
     QPushButton *startbutton;
     QPushButton *stopbutton;
 
-    
+    QTimer *timer;
+private slots:
+    void updatereadingwidget();
+    void startslot();
+    void stopslot();
 };
 
 #endif	/* READINGWIDGET_H */
