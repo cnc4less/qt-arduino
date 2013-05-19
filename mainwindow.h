@@ -10,12 +10,14 @@
 
 #include <QtGui>
 
+#include "readingwidget.h"
+
 class mainwindow : public QMainWindow {
     Q_OBJECT
 public:
     mainwindow();
 private:
-
+    readingwidget *a;
 };
 
 #endif	/* MAINWINDOW_H */

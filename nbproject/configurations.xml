@@ -27,6 +27,8 @@
     </logicalFolder>
     <itemPath>mainwindow.cpp</itemPath>
     <itemPath>mainwindow.h</itemPath>
+    <itemPath>readingwidget.cpp</itemPath>
+    <itemPath>readingwidget.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

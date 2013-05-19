@@ -10,6 +10,13 @@
 mainwindow::mainwindow() : QMainWindow() {
     setWindowTitle("Arduino");
     
+    a = new readingwidget();
     
+    QHBoxLayout *layout = new QHBoxLayout();
+    layout->addWidget(a);
+    QWidget *widget = new QWidget();
+    widget->setLayout(layout);
+    
+    setCentralWidget(widget);
 }
 

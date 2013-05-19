@@ -1,15 +1,15 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'mainwindow.h'
+** Meta object code from reading C++ file 'readingwidget.h'
 **
-** Created: Sun May 19 14:52:27 2013
+** Created: Sun May 19 14:52:24 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "mainwindow.h"
+#include "readingwidget.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'mainwindow.h' doesn't include <QObject>."
+#error "The header file 'readingwidget.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
 #error "This file was generated using the moc from 4.8.4. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -17,7 +17,7 @@
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
-static const uint qt_meta_data_mainwindow[] = {
+static const uint qt_meta_data_readingwidget[] = {
 
  // content:
        6,       // revision
@@ -33,11 +33,11 @@ static const uint qt_meta_data_mainwindow[] = {
        0        // eod
 };
 
-static const char qt_meta_stringdata_mainwindow[] = {
-    "mainwindow\0"
+static const char qt_meta_stringdata_readingwidget[] = {
+    "readingwidget\0"
 };
 
-void mainwindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void readingwidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -45,35 +45,35 @@ void mainwindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     Q_UNUSED(_a);
 }
 
-const QMetaObjectExtraData mainwindow::staticMetaObjectExtraData = {
+const QMetaObjectExtraData readingwidget::staticMetaObjectExtraData = {
     0,  qt_static_metacall 
 };
 
-const QMetaObject mainwindow::staticMetaObject = {
-    { &QMainWindow::staticMetaObject, qt_meta_stringdata_mainwindow,
-      qt_meta_data_mainwindow, &staticMetaObjectExtraData }
+const QMetaObject readingwidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_readingwidget,
+      qt_meta_data_readingwidget, &staticMetaObjectExtraData }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &mainwindow::getStaticMetaObject() { return staticMetaObject; }
+const QMetaObject &readingwidget::getStaticMetaObject() { return staticMetaObject; }
 #endif //Q_NO_DATA_RELOCATION
 
-const QMetaObject *mainwindow::metaObject() const
+const QMetaObject *readingwidget::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
 }
 
-void *mainwindow::qt_metacast(const char *_clname)
+void *readingwidget::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_mainwindow))
-        return static_cast<void*>(const_cast< mainwindow*>(this));
-    return QMainWindow::qt_metacast(_clname);
+    if (!strcmp(_clname, qt_meta_stringdata_readingwidget))
+        return static_cast<void*>(const_cast< readingwidget*>(this));
+    return QWidget::qt_metacast(_clname);
 }
 
-int mainwindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int readingwidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     return _id;
